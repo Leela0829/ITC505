@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Serving Fonts</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/baby-gladys');            
+       .cont{
+            font-family: 'Baby Gladys', sans-serif;
+            }
+        footer{
+            font-family: 'arial';
+        }
+    </style>
+</head>
+<body class = cont>
+    <h1>How a specific font can be delivered to a client (browser) making a request to your server ?</h1>
+    <p>When a client’s browser requests content from your server, you can ensure that a specific font is delivered by using the CSS @font-face rule. Let me break it down for you:</p>
+    <ol>
+        <li><h3>Font Licensing</h3>
+            <ul>
+                <li>First, ensure you have the appropriate license to distribute the font. If you do, you’re good to proceed.</li>
+            </ul>
+        </li>
+        <li><h3>Font Files:</h3>
+            <ul>
+                <li>Collect the font files you want to use (e.g., TrueType Font files with the .ttf extension).</li>
+                <li>Place these font files on your server.</li>
+            </ul>
+        </li>
+        <li><h3>CSS @font-face Rule:</h3>
+            <ul>
+                <li>In your CSS stylesheet, define the @font-face rule.</li>
+                <li>Specify the font family name, the URL to the font file, and other relevant properties.</li>
+                <li>Here’s an example:</li>
+                <img src = "img1.jpg">
+            </ul>
+        </li>
+        <li><h3>Apply the Font:</h3>
+            <ul>
+                <li>Now you can use your custom font in your stylesheets by referring to its font family name:</li>
+                <img src = "img2.jpg">
+            </ul>
+        </li>
+        <li><h3>Cross-Browser Support:</h3>
+            <ul>
+                <li>Most modern browsers support @font-face, but it’s essential to test across different browsers.</li>
+                <li>Can also use webfont services (like Google Fonts) that deliver fonts via simple CSS</li>
+            </ul>
+        </li>
+    </ol>
+    <hr>
+    <footer class = f>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>    
+</body>
+</html>
