@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/nevermind-bauhaus');
+@import url('https://fonts.cdnfonts.com/css/genos');
+@import url('https://fonts.cdnfonts.com/css/taster');
+.main-head{
+    border-color: #F6995C;
+    border-style: solid;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-radius: 15px;
+    padding: 3%;
+    text-align: center;
+    font-family: 'NeverMind Bauhaus', sans-serif;
+    font-size: 40px;
+                                                                                                
+}
+body{
+    background-color: #354E56;
+    color: #EEF1FF;
+    padding: 3%;
+}
+h1{
+    border-color: #F6995C;
+    border-style: solid;
+    border-left-width: 7px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-family: 'Genos', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;                                                                                              
+}
+p,ul,ol{
+    font-family: 'Taster', sans-serif;
+    font-size: 15px;
+}
+hr{
+    border-color: #F6995C;
+    border-style: solid;
+    border-width: 1px;
+}
+img{
+    border-radius: 5px;
+}
