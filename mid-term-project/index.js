@@ -5,7 +5,7 @@ let gameData = {
     text: "A odyssey in a mysterious world",
     choices: ["Start"],
     consequences: ["start1"],
-    image: "https://static.wikia.nocookie.net/powerlisting/images/c/c6/Fantasy_World.jpeg/revision/latest?cb=20160210204714",
+    image: "https://images.squarespace-cdn.com/content/v1/5eac45f88da144413f9b5763/1658235712240-YPB9XFATMH4VR5I8J5D3/beni-johnson-the-3-spirit-realms-and-the-keys-to-intercession.jpg",
   },
   start1: {
     text: "You find yourself in a realm where reality blends with fantasy. Choose your adventure.",
