@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="stylesheet" href="index.css">
+  <title>Mysterious world</title>
+</head>
+<body>
+  <div id="game-container">
+    <div id="story">
+      <p id="story-text">You find yourself in a realm where reality blends with fantasy. Choose your adventure.</p>
+      <img id="story-image" src="https://static.wikia.nocookie.net/powerlisting/images/c/c6/Fantasy_World.jpeg/revision/latest?cb=20160210204714" alt="Story Image">
+    </div>
+    <div id="choices"></div>
+    <button id="start-button" onclick="startGame()">Restart</button>
+  </div>
+  <br>
+    <div id="addendum">
+      <h2>Addendum</h2>
+      <p>
+      Narrative Design Precision
+      Branching Storyline: Each choice leads to a distinct path (Enchanted Forest, Mysterious Castle, etc.), offering players a personalized adventure.
+      <br>
+      Story Depth: The narrative layers, such as encountering the tree spirit or exploring the dungeon depths, add depth to player decisions.
+    </p>
+      <h2>Visual Immersion Strategies</h2>
+      <p>
+      Image Selection: The images chosen (e.g., enchanted forests, ancient artifacts) visually anchor each stage, enhancing the immersive experience.
+      <br>
+      Atmospheric Cohesion: Images align with their respective narrative segments, ensuring consistency in the game's fantasy and mystical themes.
+    </p>
+      <h2>User-Centric Experience Design</h2>
+      <p>
+      Interface Simplicity: The game's interface, based on straightforward choice selections, is designed for ease of use, suitable for a wide audience.
+      <br>
+      Adaptive Design: The layout and style choices adapt to the narrative's tone, whether it’s a mystical forest or a royal archive.
+    </p>
+    <h2>Challenges and Solutions</h2>
+    <p>
+    Navigational Clarity: The game maintains a balance between story complexity and player ease of navigation, avoiding confusion and maintaining engagement.
+    <br>
+    Responsive Storytelling: The game adapts to player choices, providing a responsive and dynamic storytelling experience.
+</p>
+    <h2>Insights into Interactive Storytelling</h2>
+    <p>
+    Player Agency and Narrative: Insights show how player choices actively shape their journey, creating a unique narrative experience.
+    <br>
+    Design Efficiency: Emphasizes the importance of simplicity in design to keep the focus on the narrative.
+</p>
+  <h2>Conclusion: Beyond the Game</h2>
+  <p>
+  Narrative-Centric Gaming: The game exemplifies the fusion of interactive decision-making with a rich narrative structure.
+  <br>
+  Development Insights: Developing this game provided valuable insights into creating engaging, choice-driven narratives in gaming.
+</p>
+    </div>
+    <footer>
+      <p>Last updated: 
+          <span id="lastModified"></span>
+      </p>
+  </footer>
+  <script type="text/javascript">
+       var x = document.lastModified;
+       document.getElementById('lastModified').textContent = x;
+  </script>
+<script src="index.js"></script>
+</body>
+</html>
