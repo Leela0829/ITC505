@@ -1,24 +1,24 @@
-@import url('https://fonts.cdnfonts.com/css/nevermind-bauhaus');
+@import url('https://fonts.cdnfonts.com/css/noto-sans-kannada');
 body {
-  font-family: 'NeverMind Bauhaus', sans-serif;
+  font-family: 'Noto Sans Kannada', sans-serif; 
   margin: 0;
   padding: 0;
-  background-color: #dadeee;
+  background-color: #FFEFEF;
 }
 
 .container {
   width: 80%;
   max-width: 600px;
   margin: 50px auto;
-  font-family: 'NeverMind Bauhaus', sans-serif;
+  font-family: 'Noto Sans Kannada', sans-serif; 
 }
 
 form {
-  background-color: #e5e5e6;
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  font-family: 'NeverMind Bauhaus', sans-serif;
+  font-family: 'Noto Sans Kannada', sans-serif; 
 }
 
 form label {
@@ -41,14 +41,14 @@ form input[type="submit"] {
   width: 100%;
   padding: 10px;
   border: none;
-  background-color: #340794;
+  background-color: #51829B;
   color: whitesmoke;
   cursor: pointer;
   border-radius: 5px;
-  font-family: 'NeverMind Bauhaus', sans-serif;
+  font-family: 'Noto Sans Kannada', sans-serif; 
 }
 form input[type="submit"]:hover {
-  background-color: black;
+  background-color: orange;
 }
 .error {
   color: black;
@@ -67,7 +67,7 @@ h2 {
   text-align: center;
 }
 .head-font {
-  font-family: 'NeverMind Bauhaus', sans-serif;
+  font-family: 'Noto Sans Kannada', sans-serif; 
   font-weight: 800;
   font-style: normal;
 }
