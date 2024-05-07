@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lights Out Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="head">
+    <h2>Revenge of Lights Out </h2>
+</div>
+    <div id="gameBoard"></div>
+    <div id="winModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Congratulations! You've won the game!</p>
+            <button id="playAgain">Play Again</button>
+        </div>
+    </div>    
+    <!-- Addendum Section -->
+    <div id="addendum">
+        <h2>Addendum</h2>
+        <ul>
+            <li>The creation of the "Revenge of Lights Out" game was an enlightening journey, merging imagination with problem-solving.</li>
+            <li>The primary aim was to craft a dynamic and captivating game that challenges participants.</li>
+        </ul>
+        
+        <h3>Innovative Choices</h3>
+        <ul>
+            <li>Game Design: Opting for a 5x5 grid struck a harmonious balance between complexity and accessibility for players with varied skill levels.</li>
+            <li>User Interface: Embracing a minimalist approach prioritized gameplay, aligning with contemporary design principles emphasizing simplicity and functionality.</li>
+            <li>Feedback Mechanism: Implementing a modal window for announcing game completion aimed to deliver clear and gratifying feedback to players.</li>
+        </ul>
+        
+        <h3>Hurdles and Resolutions</h3>
+        <ul>
+            <li>Randomizing the Board: Initial difficulty arose in effectively shuffling the board at the game's onset. <br>This was tackled by introducing a randomization function to ensure a fresh experience in every session.</li>
+            <li>Ensuring Playability: Guaranteeing the game's solvability after shuffling posed a challenge. This was overcome through meticulous testing and refinement of the algorithm.</li>
+        </ul>
+        
+        <h3>Noteworthy Observations</h3>
+        <ul>
+            <li>User-Centric Design: The significance of prioritizing user experience became evident. Streamlined gameplay and interface design profoundly enhance engagement.</li>
+            <li>Testing is Essential: Thorough testing was indispensable in identifying and resolving issues, highlighting the critical role of comprehensive testing in game development.</li>
+        </ul>
+    </div>
+    <div class="head">
+    <footer>
+        <p><b>Last updated:</b>
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
